@@ -1,19 +1,18 @@
 <div align="center">
-  <img src="https://systemprompt.io/files/images/logo.svg" alt="systemprompt.io" width="120">
 
-  <h1>Own how your organization uses AI.</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://systemprompt.io/files/images/logo.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://systemprompt.io/files/images/logo-dark.svg">
+  <img src="https://systemprompt.io/files/images/logo-dark.svg" alt="systemprompt.io" width="380">
+</picture>
 
-  <p>
-    <strong>The narrow waist between your AI and everything it touches.</strong><br>
-    Self-hosted. Air-gapped. Every interaction governed and provable.
-  </p>
+# Own how your organization uses AI.
 
-  <p>
-    <a href="https://systemprompt.io">systemprompt.io</a> ·
-    <a href="https://systemprompt.io/docs/">Docs</a> ·
-    <a href="https://github.com/systempromptio/systemprompt-core">Core</a> ·
-    <a href="https://github.com/systempromptio/systemprompt-template">Template</a>
-  </p>
+**The narrow waist between your AI and everything it touches.**
+Self-hosted. Air-gapped. Every interaction governed and provable.
+
+[**systemprompt.io**](https://systemprompt.io) · [**Docs**](https://systemprompt.io/docs/) · [**Core**](https://github.com/systempromptio/systemprompt-core) · [**Template**](https://github.com/systempromptio/systemprompt-template)
+
 </div>
 
 ---
@@ -67,4 +66,4 @@ Technical guides for developers working with Claude Code, MCP servers, and AI go
 ### Contact
 
 - [systemprompt.io](https://systemprompt.io)
-- ed@systemprompt.io
+- hello@systemprompt.io
