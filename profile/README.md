@@ -66,4 +66,4 @@ Technical guides for developers working with Claude Code, MCP servers, and AI go
 ### Contact
 
 - [systemprompt.io](https://systemprompt.io)
-- hello@systemprompt.io
+- ed@systemprompt.io
