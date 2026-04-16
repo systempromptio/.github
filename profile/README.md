@@ -11,6 +11,8 @@
 The narrow waist between your AI and everything it touches.
 Self-hosted. Air-gapped. Every interaction governed and provable.
 
+[**Try it now**](https://github.com/systempromptio/systemprompt-template)
+
 [**systemprompt.io**](https://systemprompt.io) · [**Documentation**](https://systemprompt.io/documentation/) · [**Guides**](https://systemprompt.io/guides) · [**Discord**](https://discord.gg/wkAbSuPWpr)
 
 </div>
