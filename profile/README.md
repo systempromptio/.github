@@ -6,64 +6,83 @@
   <img src="https://systemprompt.io/files/images/logo-dark.svg" alt="systemprompt.io" width="380">
 </picture>
 
-# Own how your organization uses AI.
+# AI governance at scale.
 
-**The narrow waist between your AI and everything it touches.**
-Self-hosted. Air-gapped. Every interaction governed and provable.
+**3,308 req/s on a laptop. <1% overhead. Every interaction governed and provable.**
 
-[**systemprompt.io**](https://systemprompt.io) · [**Docs**](https://systemprompt.io/docs/) · [**Core**](https://github.com/systempromptio/systemprompt-core) · [**Template**](https://github.com/systempromptio/systemprompt-template)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-benchmark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/int-benchmark.svg">
+  <img alt="Governance benchmark: 3,308 req/s" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-benchmark.svg" width="820">
+</picture>
+
+[**systemprompt.io**](https://systemprompt.io) · [**Documentation**](https://systemprompt.io/documentation/) · [**Guides**](https://systemprompt.io/guides) · [**Discord**](https://discord.gg/wkAbSuPWpr)
 
 </div>
 
 ---
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-core/main/assets/readme/terminals/dark/00-overview.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-core/main/assets/readme/terminals/light/00-overview.svg">
-    <img alt="systemprompt CLI overview" src="https://raw.githubusercontent.com/systempromptio/systemprompt-core/main/assets/readme/terminals/dark/00-overview.svg" width="100%">
-  </picture>
-</div>
+### Infrastructure
+
+One binary. One database. Deploys anywhere.
+
+| Self-hosted deployment | Deploy anywhere |
+|:---:|:---:|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/infra-self-hosted.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/infra-self-hosted.svg"><img alt="Self-hosted deployment" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/infra-self-hosted.svg" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/infra-deploy-anywhere.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/infra-deploy-anywhere.svg"><img alt="Deploy anywhere" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/infra-deploy-anywhere.svg" width="100%"></picture> |
+| 50MB Rust binary, 4 services, 144 tables, zero sidecars. [Learn more](https://systemprompt.io/features/self-hosted-ai-platform) | Same binary runs local, Docker, cloud, or air-gapped. [Learn more](https://systemprompt.io/features/deploy-anywhere) |
 
 ---
 
-### Govern. Prove. Perform.
+### Capabilities
 
-| Govern | Prove | Perform |
+Four enforcement layers. Full audit trail. Zero blind spots.
+
+| Governance pipeline | Secrets management | Compliance |
 |:---:|:---:|:---:|
-| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/01-governance.svg?v=2"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/01-governance.svg?v=2"><img alt="Governance pipeline" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/01-governance.svg?v=2" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/03-audit.svg?v=2"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/03-audit.svg?v=2"><img alt="Audit trail" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/03-audit.svg?v=2" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/06-benchmark.svg?v=2"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/06-benchmark.svg?v=2"><img alt="Benchmark" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/06-benchmark.svg?v=2" width="100%"></picture> |
-| Every tool call authenticated, authorised, rate-limited, logged. | Every decision replayable. Full audit trail. | <1% overhead. 3,308 req/s on a laptop. |
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-governance.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/cap-governance.svg"><img alt="Governance pipeline" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-governance.svg" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-secrets.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/cap-secrets.svg"><img alt="Secrets management" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-secrets.svg" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-compliance.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/cap-compliance.svg"><img alt="Compliance" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/cap-compliance.svg" width="100%"></picture> |
+| Every tool call hits scope, secret scan, blocklist, rate limit. [Learn more](https://systemprompt.io/features/governance-pipeline) | Credentials never enter the context window. [Learn more](https://systemprompt.io/features/secrets-management) | SOC 2, ISO 27001, HIPAA, OWASP Agentic Top 10. [Learn more](https://systemprompt.io/features/compliance) |
 
 ---
 
-### Open Source
+### Integrations
+
+Provider-agnostic. Protocol-native. Fully extensible.
+
+| Any AI agent | Extensible architecture |
+|:---:|:---:|
+| <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-any-agent.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/int-any-agent.svg"><img alt="Any AI agent" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-any-agent.svg" width="100%"></picture> | <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-extensions.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/int-extensions.svg"><img alt="Extensible architecture" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-extensions.svg" width="100%"></picture> |
+| Anthropic, OpenAI, Gemini. One governance layer for all of them. [Learn more](https://systemprompt.io/features/any-ai-agent) | 12 extensions, 71 schemas, 13 jobs. Your code compiles into your binary. [Learn more](https://systemprompt.io/features/extensible-architecture) |
+
+---
+
+### Repositories
 
 | Project | |
 |---|---|
-| [systemprompt-core](https://github.com/systempromptio/systemprompt-core) | The Rust library behind systemprompt.io — one binary, every governance primitive. |
-| [systemprompt-template](https://github.com/systempromptio/systemprompt-template) | Production AI agent mesh in three commands. Self-hosted evaluation in 5 minutes. |
+| [systemprompt-core](https://github.com/systempromptio/systemprompt-core) | The Rust library. One binary, every governance primitive. BSL-1.1. |
+| [systemprompt-template](https://github.com/systempromptio/systemprompt-template) | Local evaluation. Clone, build, run 40+ demos against your own machine. MIT. |
 | [systemprompt-code-orchestrator](https://github.com/systempromptio/systemprompt-code-orchestrator) | MCP server orchestrating Claude Code + Gemini CLI as governed coding agents. |
 | [systemprompt-mcp-server](https://github.com/systempromptio/systemprompt-mcp-server) | Production MCP server with OAuth 2.1, task management, and integrations. |
 | [systemprompt-marketplace](https://github.com/systempromptio/systemprompt-marketplace) | Plugin marketplace for the systemprompt.io ecosystem. |
 
-**Compliance that survives an audit** — SOC 2 Type II · ISO 27001 · HIPAA · OWASP Top 10.
+---
+
+### Evaluate it in three commands
+
+```bash
+just build                                               # 1. compile the workspace
+just setup-local <anthropic> <openai> <gemini>           # 2. profile + Postgres + publish
+just start                                               # 3. serve governance, agents, MCP, admin, API
+```
+
+Open **http://localhost:8080** and run `systemprompt --help`.
 
 ---
 
-### Guides
+<div align="center">
 
-Technical guides for developers working with Claude Code, MCP servers, and AI governance:
+[**systemprompt.io**](https://systemprompt.io) · [**Documentation**](https://systemprompt.io/documentation/) · [**Guides**](https://systemprompt.io/guides) · [**Discord**](https://discord.gg/wkAbSuPWpr)
 
-- [Claude Code Daily Workflows](https://systemprompt.io/guides/claude-code-daily-workflows/)
-- [Building MCP Servers in Rust](https://systemprompt.io/guides/build-mcp-server-rust/)
-- [MCP Server Authentication and Security](https://systemprompt.io/guides/mcp-server-authentication-security/)
-- [Getting Started with the Anthropic Marketplace](https://systemprompt.io/guides/getting-started-anthropic-marketplace/)
+<sub>Own how your organization uses AI. Every interaction governed and provable.</sub>
 
-[Browse all guides](https://systemprompt.io/guides/)
-
----
-
-### Contact
-
-- [systemprompt.io](https://systemprompt.io)
-- hello@systemprompt.io
+</div>
