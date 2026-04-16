@@ -6,19 +6,27 @@
   <img src="https://systemprompt.io/files/images/logo-dark.svg" alt="systemprompt.io" width="380">
 </picture>
 
-# AI governance at scale.
+# Own how your organization uses AI.
 
-**3,308 req/s on a laptop. p50 13.5 ms. <1% overhead on AI response time.**
-One compiled Rust binary. PostgreSQL. Nothing else.
+The narrow waist between your AI and everything it touches.
+Self-hosted. Air-gapped. Every interaction governed and provable.
 
+[**systemprompt.io**](https://systemprompt.io) · [**Documentation**](https://systemprompt.io/documentation/) · [**Guides**](https://systemprompt.io/guides) · [**Discord**](https://discord.gg/wkAbSuPWpr)
+
+</div>
+
+---
+
+## AI governance at scale
+
+3,308 req/s on a laptop. p50 13.5 ms. <1% overhead on AI response time. One compiled Rust binary. PostgreSQL. Nothing else.
+
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-benchmark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/light/int-benchmark.svg">
   <img alt="Governance benchmark: 3,308 req/s" src="https://raw.githubusercontent.com/systempromptio/systemprompt-template/main/demo/recording/svg/output/dark/int-benchmark.svg" width="820">
 </picture>
-
-[**systemprompt.io**](https://systemprompt.io) · [**Documentation**](https://systemprompt.io/documentation/) · [**Guides**](https://systemprompt.io/guides) · [**Discord**](https://discord.gg/wkAbSuPWpr)
-
 </div>
 
 ---
